@@ -36,8 +36,14 @@ def main(product):
                 else:
                     print("\nProduct has been added.")
             elif action == "remove":
-                pass
+                try:
+                    product.remove(int(input("Index Number: ")))
+                except (KeyError, ValueError):
+                    print("\nError: Please enter a valid index number.")
+                else:
+                    print("\nProduct has been removed.")
 
 
 if __name__ == "__main__":
     main(Product(PATH_TO_CSV_FILE))
+    
