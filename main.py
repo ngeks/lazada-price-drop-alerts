@@ -1,4 +1,9 @@
-def main():
+from product import Product
+
+PATH_TO_CSV_FILE = "products.csv"   # Change this to your preference.
+
+
+def main(product):
     actions = ("view", "add", "remove", "exit")
 
     while True:
@@ -14,7 +19,10 @@ def main():
             print("\n===> Run the alerts.py script to send alerts. Goodbye! :) <===\n")
             break
         else:
-            if action == "view":
+            data = product.data()
+            if data.empty and action != "add":
+                print(f"\nError: Your data is empty. There is nothing to {action}.")
+            elif action == "view":
                 pass
             elif action == "add":
                 pass
@@ -23,4 +31,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(Product(PATH_TO_CSV_FILE))
