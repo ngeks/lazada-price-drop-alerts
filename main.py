@@ -23,7 +23,7 @@ def main(product):
             if data.empty and action != "add":
                 print(f"\nError: Your data is empty. There is nothing to {action}.")
             elif action == "view":
-                pass
+                product.view()
             elif action == "add":
                 pass
             elif action == "remove":
