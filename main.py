@@ -25,7 +25,16 @@ def main(product):
             elif action == "view":
                 product.view()
             elif action == "add":
-                pass
+                try:
+                    product.add(
+                        input("Name: "),
+                        float(input("Price: ")),
+                        input("Product URL: ")
+                    )
+                except ValueError:
+                    print("\nError: Please enter a valid price.")
+                else:
+                    print("\nProduct has been added.")
             elif action == "remove":
                 pass
 
