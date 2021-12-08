@@ -20,8 +20,7 @@ class Product:
 
     def data(self):
         """Return data as pandas data frame."""
-        data = pandas.read_csv(self.data_as_csv)
-        return pandas.DataFrame(data)
+        return pandas.read_csv(self.data_as_csv)
 
     def view(self):
         """Display current data."""
