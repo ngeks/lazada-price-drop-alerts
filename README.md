@@ -16,52 +16,54 @@
 <pre><code class="has-line-data" data-line-start="15" data-line-end="17">https://github.com/ngeks/lazada-price-drop-alerts.git
 </code></pre>
 </li>
-<li class="has-line-data" data-line-start="18" data-line-end="23">
+<li class="has-line-data" data-line-start="18" data-line-end="22">
 <p class="has-line-data" data-line-start="18" data-line-end="19">Then, navigate inside the folder.</p>
 <pre><code class="has-line-data" data-line-start="20" data-line-end="22">cd lazada-price-drop-alerts
 </code></pre>
 </li>
-<li class="has-line-data" data-line-start="23" data-line-end="45">
-<p class="has-line-data" data-line-start="23" data-line-end="24">Set environment variables.</p>
-<pre><code class="has-line-data" data-line-start="25" data-line-end="32">export DATA_FILE=&quot;CSV_FILE_LOCATION&quot;
+<li class="has-line-data" data-line-start="22" data-line-end="26">
+<p class="has-line-data" data-line-start="22" data-line-end="23">Install required packages.</p>
+<pre><code class="has-line-data" data-line-start="24" data-line-end="26">pip install -r requirements.txt
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="26" data-line-end="48">
+<p class="has-line-data" data-line-start="26" data-line-end="27">Set environment variables.</p>
+<pre><code class="has-line-data" data-line-start="28" data-line-end="35">export DATA_FILE=&quot;CSV_FILE_LOCATION&quot;
 export SMTP_ADDRESS=&quot;SMTP_SERVER_ADDRESS&quot;
 export SMTP_PORT=0000
 export FROM_EMAIL=&quot;SENDER_EMAIL_ADDRESS&quot;
 export FROM_EMAIL_PW =&quot;SENDER_EMAIL_ADDRESS_PW&quot;
 export TO_EMAIL=&quot;RECIPIENT_EMAIL_ADDRESS&quot;
 </code></pre>
-<p class="has-line-data" data-line-start="32" data-line-end="33">Example:</p>
-<pre><code class="has-line-data" data-line-start="34" data-line-end="41">export DATA_FILE=&quot;products.csv&quot;
+<p class="has-line-data" data-line-start="35" data-line-end="36">Example:</p>
+<pre><code class="has-line-data" data-line-start="37" data-line-end="44">export DATA_FILE=&quot;products.csv&quot;
 export SMTP_ADDRESS=&quot;smtp.gmail.com&quot;
 export SMTP_PORT=587
 export FROM_EMAIL=&quot;alertsender@gmail.com&quot;
 export FROM_EMAIL_PW =&quot;thesenderemailpw.&quot;
 export TO_EMAIL=&quot;alertrecipient@gmail.com&quot;
 </code></pre>
-<p class="has-line-data" data-line-start="42" data-line-end="44"><em>Optional: If you are using gmail make sure to turn on your less secure apps access.</em><br>
+<p class="has-line-data" data-line-start="45" data-line-end="47"><em>Optional: If you are using gmail make sure to turn on your less secure apps access.</em><br>
 <em>Manage your Google account -&gt; Security -&gt; Turn on <strong>Less secure app access</strong></em></p>
 </li>
-<li class="has-line-data" data-line-start="45" data-line-end="54">
-<p class="has-line-data" data-line-start="45" data-line-end="46">Run <code>main.py</code> to manage product data.</p>
-<pre><code class="has-line-data" data-line-start="47" data-line-end="49">pyton main.py
+<li class="has-line-data" data-line-start="48" data-line-end="57">
+<p class="has-line-data" data-line-start="48" data-line-end="49">Run <code>main.py</code> to manage product data.</p>
+<pre><code class="has-line-data" data-line-start="50" data-line-end="52">pyton main.py
 </code></pre>
-<pre><code class="has-line-data" data-line-start="50" data-line-end="54">- View products
+<pre><code class="has-line-data" data-line-start="53" data-line-end="57">- View products
 - Add product
 - Remove product
 </code></pre>
 </li>
-<li class="has-line-data" data-line-start="54" data-line-end="58">
-<p class="has-line-data" data-line-start="54" data-line-end="55">Run <code>alerts.py</code> to check for price drop and send email alert.</p>
-<pre><code class="has-line-data" data-line-start="56" data-line-end="58">python alerts.py
+<li class="has-line-data" data-line-start="57" data-line-end="62">
+<p class="has-line-data" data-line-start="57" data-line-end="58">Run <code>alerts.py</code> to check for price drop and send email alert.</p>
+<pre><code class="has-line-data" data-line-start="59" data-line-end="61">python alerts.py
 </code></pre>
 </li>
-<li class="has-line-data" data-line-start="58" data-line-end="60">
-<p class="has-line-data" data-line-start="58" data-line-end="59">Wait for the program to finish process.</p>
-</li>
 </ol>
-<h2 class="code-line" data-line-start=60 data-line-end=61 ><a id="License_60"></a>License</h2>
-<p class="has-line-data" data-line-start="61" data-line-end="62">Distributed under <a href="https://github.com/ngeks/lazada-price-drop-alerts/blob/main/LICENSE">MIT License</a>.</p>
-<h2 class="code-line" data-line-start=63 data-line-end=64 ><a id="Links_63"></a>Links</h2>
-<p class="has-line-data" data-line-start="64" data-line-end="67">Repository: <a href="https://github.com/ngeks/lazada-price-drop-alerts">https://github.com/ngeks/lazada-price-drop-alerts</a><br>
+<h2 class="code-line" data-line-start=62 data-line-end=63 ><a id="License_62"></a>License</h2>
+<p class="has-line-data" data-line-start="63" data-line-end="64">Distributed under <a href="https://github.com/ngeks/lazada-price-drop-alerts/blob/main/LICENSE">MIT License</a>.</p>
+<h2 class="code-line" data-line-start=65 data-line-end=66 ><a id="Links_65"></a>Links</h2>
+<p class="has-line-data" data-line-start="66" data-line-end="69">Repository: <a href="https://github.com/ngeks/lazada-price-drop-alerts">https://github.com/ngeks/lazada-price-drop-alerts</a><br>
 Twitter: <a href="https://twitter.com/ngeksdev">@ngeksdev</a><br>
 Email: <a href="mailto:ngeksdev@gmail.com">ngeksdev@gmail.com</a></p>
