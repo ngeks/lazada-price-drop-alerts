@@ -1,6 +1,6 @@
-from product import Product
+import os
 
-PATH_TO_CSV_FILE = "products.csv"   # Change this to your preference.
+from product import Product
 
 
 def main(product):
@@ -45,5 +45,5 @@ def main(product):
 
 
 if __name__ == "__main__":
-    main(Product(PATH_TO_CSV_FILE))
+    main(Product(os.environ['DATA_FILE']))
     
