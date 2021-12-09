@@ -2,14 +2,14 @@
 <p class="has-line-data" data-line-start="1" data-line-end="3"><a href="https://www.python.org/"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg" alt="made-with-python"></a> <a href="https://github.com/ngeks/lazada-price-drop-alerts/blob/main/LICENSE"><img src="https://badgen.net/github/license/Naereen/Strapdown.js" alt="GitHub license"></a> <a href="https://saythanks.io/to/ngeksdev"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say Thanks!"></a><br>
 <a href="https://www.buymeacoffee.com/ngeks"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="&amp;quot;Buy Me A Coffee&amp;quot;"></a></p>
 <p class="has-line-data" data-line-start="4" data-line-end="5">A python script that can help you keep track of your Lazada product wish list prices. It sends you an email alert whenever there is a price drop.</p>
-<h2 class="code-line" data-line-start=6 data-line-end=7 ><a id="How_to_run_the_script_6"></a>How to run the script?</h2>
-<h3 class="code-line" data-line-start=7 data-line-end=8 ><a id="Requirements_7"></a>Requirements</h3>
+<h2 class="code-line" data-line-start=6 data-line-end=7 ><a id="HOW_TO_RUN_THE_SCRIPT_6"></a>HOW TO RUN THE SCRIPT?</h2>
+<h3 class="code-line" data-line-start=7 data-line-end=8 ><a id="REQUIREMENTS_7"></a>REQUIREMENTS</h3>
 <ul>
 <li class="has-line-data" data-line-start="8" data-line-end="9">You must have <code>python</code> installed on your computer.</li>
 <li class="has-line-data" data-line-start="9" data-line-end="10">You must have <code>pip</code> installed on your computer.</li>
 <li class="has-line-data" data-line-start="10" data-line-end="12">An email account to send out email alerts.</li>
 </ul>
-<h3 class="code-line" data-line-start=12 data-line-end=13 ><a id="Instructions_12"></a>Instructions</h3>
+<h3 class="code-line" data-line-start=12 data-line-end=13 ><a id="INSTRUCTIONS_12"></a>INSTRUCTIONS</h3>
 <ol>
 <li class="has-line-data" data-line-start="13" data-line-end="18">
 <p class="has-line-data" data-line-start="13" data-line-end="14">First, clone the repository.</p>
@@ -61,9 +61,15 @@ export TO_EMAIL=&quot;alertrecipient@gmail.com&quot;
 </code></pre>
 </li>
 </ol>
-<h2 class="code-line" data-line-start=62 data-line-end=63 ><a id="License_62"></a>License</h2>
+<h2 class="code-line" data-line-start=62 data-line-end=63 ><a id="LICENSE_62"></a>LICENSE</h2>
 <p class="has-line-data" data-line-start="63" data-line-end="64">Distributed under <a href="https://github.com/ngeks/lazada-price-drop-alerts/blob/main/LICENSE">MIT License</a>.</p>
-<h2 class="code-line" data-line-start=65 data-line-end=66 ><a id="Links_65"></a>Links</h2>
-<p class="has-line-data" data-line-start="66" data-line-end="69">Repository: <a href="https://github.com/ngeks/lazada-price-drop-alerts">https://github.com/ngeks/lazada-price-drop-alerts</a><br>
+<h2 class="code-line" data-line-start=65 data-line-end=66 ><a id="HELPFUL_LINKS_65"></a>HELPFUL LINKS</h2>
+<h3 class="code-line" data-line-start=66 data-line-end=67 ><a id="AUTOMATE_THE_PROCESS_66"></a>AUTOMATE THE PROCESS</h3>
+<ul>
+<li class="has-line-data" data-line-start="67" data-line-end="68"><a href="https://help.pythonanywhere.com/pages/ScheduledTasks">https://help.pythonanywhere.com/pages/ScheduledTasks</a></li>
+<li class="has-line-data" data-line-start="68" data-line-end="70"><a href="https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279">Automate your python scripts with task scheduler</a></li>
+</ul>
+<h3 class="code-line" data-line-start=70 data-line-end=71 ><a id="DO_YOU_NEED_HELP_70"></a>DO YOU NEED HELP?</h3>
+<p class="has-line-data" data-line-start="71" data-line-end="74">Repository: <a href="https://github.com/ngeks/lazada-price-drop-alerts">https://github.com/ngeks/lazada-price-drop-alerts</a><br>
 Twitter: <a href="https://twitter.com/ngeksdev">@ngeksdev</a><br>
 Email: <a href="mailto:ngeksdev@gmail.com">ngeksdev@gmail.com</a></p>
