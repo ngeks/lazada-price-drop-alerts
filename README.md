@@ -48,29 +48,31 @@ export TO_EMAIL=&quot;alertrecipient@gmail.com&quot;
 </li>
 <li class="has-line-data" data-line-start="48" data-line-end="57">
 <p class="has-line-data" data-line-start="48" data-line-end="49">Run <code>main.py</code> to manage product data.</p>
-<pre><code class="has-line-data" data-line-start="50" data-line-end="52">pyton main.py
+<pre><code class="has-line-data" data-line-start="50" data-line-end="52">python main.py
 </code></pre>
 <pre><code class="has-line-data" data-line-start="53" data-line-end="57">- View products
 - Add product
 - Remove product
 </code></pre>
 </li>
-<li class="has-line-data" data-line-start="57" data-line-end="62">
+<li class="has-line-data" data-line-start="57" data-line-end="61">
 <p class="has-line-data" data-line-start="57" data-line-end="58">Run <code>alerts.py</code> to check for price drop and send email alerts.</p>
 <pre><code class="has-line-data" data-line-start="59" data-line-end="61">python alerts.py
 </code></pre>
 </li>
 </ol>
-<h2 class="code-line" data-line-start=62 data-line-end=63 ><a id="LICENSE_62"></a>LICENSE</h2>
-<p class="has-line-data" data-line-start="63" data-line-end="64">Distributed under <a href="https://github.com/ngeks/lazada-price-drop-alerts/blob/main/LICENSE">MIT License</a>.</p>
-<h2 class="code-line" data-line-start=65 data-line-end=66 ><a id="LINKS_65"></a>LINKS</h2>
+<h2 class="code-line" data-line-start=61 data-line-end=62 ><a id="DEMO_61"></a>DEMO</h2>
+<p class="has-line-data" data-line-start="62" data-line-end="63"><img src="https://i.imgur.com/58494eW.gif" alt=""></p>
+<h2 class="code-line" data-line-start=64 data-line-end=65 ><a id="LICENSE_64"></a>LICENSE</h2>
+<p class="has-line-data" data-line-start="65" data-line-end="66">Distributed under <a href="https://github.com/ngeks/lazada-price-drop-alerts/blob/main/LICENSE">MIT License</a>.</p>
+<h2 class="code-line" data-line-start=67 data-line-end=68 ><a id="LINKS_67"></a>LINKS</h2>
 <ul>
-<li class="has-line-data" data-line-start="66" data-line-end="67"><a href="https://help.pythonanywhere.com/pages/ScheduledTasks">https://help.pythonanywhere.com/pages/ScheduledTasks</a></li>
-<li class="has-line-data" data-line-start="67" data-line-end="69"><a href="https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279">Automate your python scripts with task scheduler</a></li>
+<li class="has-line-data" data-line-start="68" data-line-end="69"><a href="https://help.pythonanywhere.com/pages/ScheduledTasks">https://help.pythonanywhere.com/pages/ScheduledTasks</a></li>
+<li class="has-line-data" data-line-start="69" data-line-end="71"><a href="https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279">Automate your python scripts with task scheduler</a></li>
 </ul>
-<h2 class="code-line" data-line-start=69 data-line-end=70 ><a id="CONTACT_ME_69"></a>CONTACT ME</h2>
+<h2 class="code-line" data-line-start=71 data-line-end=72 ><a id="CONTACT_ME_71"></a>CONTACT ME</h2>
 <ul>
-<li class="has-line-data" data-line-start="70" data-line-end="71">Repository: <a href="https://github.com/ngeks/lazada-price-drop-alerts">https://github.com/ngeks/lazada-price-drop-alerts</a></li>
-<li class="has-line-data" data-line-start="71" data-line-end="72">Twitter: <a href="https://twitter.com/ngeksdev">@ngeksdev</a></li>
-<li class="has-line-data" data-line-start="72" data-line-end="73">Email: <a href="mailto:ngeksdev@gmail.com">ngeksdev@gmail.com</a></li>
+<li class="has-line-data" data-line-start="72" data-line-end="73">Repository: <a href="https://github.com/ngeks/lazada-price-drop-alerts">https://github.com/ngeks/lazada-price-drop-alerts</a></li>
+<li class="has-line-data" data-line-start="73" data-line-end="74">Twitter: <a href="https://twitter.com/ngeksdev">@ngeksdev</a></li>
+<li class="has-line-data" data-line-start="74" data-line-end="75">Email: <a href="mailto:ngeksdev@gmail.com">ngeksdev@gmail.com</a></li>
 </ul>
