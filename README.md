@@ -64,12 +64,13 @@ export TO_EMAIL=&quot;alertrecipient@gmail.com&quot;
 <h2 class="code-line" data-line-start=62 data-line-end=63 ><a id="LICENSE_62"></a>LICENSE</h2>
 <p class="has-line-data" data-line-start="63" data-line-end="64">Distributed under <a href="https://github.com/ngeks/lazada-price-drop-alerts/blob/main/LICENSE">MIT License</a>.</p>
 <h2 class="code-line" data-line-start=65 data-line-end=66 ><a id="HELPFUL_LINKS_65"></a>HELPFUL LINKS</h2>
-<h3 class="code-line" data-line-start=66 data-line-end=67 ><a id="AUTOMATE_THE_PROCESS_66"></a>AUTOMATE THE PROCESS</h3>
 <ul>
-<li class="has-line-data" data-line-start="67" data-line-end="68"><a href="https://help.pythonanywhere.com/pages/ScheduledTasks">https://help.pythonanywhere.com/pages/ScheduledTasks</a></li>
-<li class="has-line-data" data-line-start="68" data-line-end="70"><a href="https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279">Automate your python scripts with task scheduler</a></li>
+<li class="has-line-data" data-line-start="66" data-line-end="67"><a href="https://help.pythonanywhere.com/pages/ScheduledTasks">https://help.pythonanywhere.com/pages/ScheduledTasks</a></li>
+<li class="has-line-data" data-line-start="67" data-line-end="69"><a href="https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279">Automate your python scripts with task scheduler</a></li>
 </ul>
-<h3 class="code-line" data-line-start=70 data-line-end=71 ><a id="DO_YOU_NEED_HELP_70"></a>DO YOU NEED HELP?</h3>
-<p class="has-line-data" data-line-start="71" data-line-end="74">Repository: <a href="https://github.com/ngeks/lazada-price-drop-alerts">https://github.com/ngeks/lazada-price-drop-alerts</a><br>
-Twitter: <a href="https://twitter.com/ngeksdev">@ngeksdev</a><br>
-Email: <a href="mailto:ngeksdev@gmail.com">ngeksdev@gmail.com</a></p>
+<h2 class="code-line" data-line-start=69 data-line-end=70 ><a id="DO_YOU_NEED_HELP_69"></a>DO YOU NEED HELP?</h2>
+<ul>
+<li class="has-line-data" data-line-start="70" data-line-end="71">Repository: <a href="https://github.com/ngeks/lazada-price-drop-alerts">https://github.com/ngeks/lazada-price-drop-alerts</a></li>
+<li class="has-line-data" data-line-start="71" data-line-end="72">Twitter: <a href="https://twitter.com/ngeksdev">@ngeksdev</a></li>
+<li class="has-line-data" data-line-start="72" data-line-end="73">Email: <a href="mailto:ngeksdev@gmail.com">ngeksdev@gmail.com</a></li>
+</ul>
