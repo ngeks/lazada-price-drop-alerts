@@ -56,19 +56,19 @@ export TO_EMAIL=&quot;alertrecipient@gmail.com&quot;
 </code></pre>
 </li>
 <li class="has-line-data" data-line-start="57" data-line-end="62">
-<p class="has-line-data" data-line-start="57" data-line-end="58">Run <code>alerts.py</code> to check for price drop and send email alert.</p>
+<p class="has-line-data" data-line-start="57" data-line-end="58">Run <code>alerts.py</code> to check for price drop and send email alerts.</p>
 <pre><code class="has-line-data" data-line-start="59" data-line-end="61">python alerts.py
 </code></pre>
 </li>
 </ol>
 <h2 class="code-line" data-line-start=62 data-line-end=63 ><a id="LICENSE_62"></a>LICENSE</h2>
 <p class="has-line-data" data-line-start="63" data-line-end="64">Distributed under <a href="https://github.com/ngeks/lazada-price-drop-alerts/blob/main/LICENSE">MIT License</a>.</p>
-<h2 class="code-line" data-line-start=65 data-line-end=66 ><a id="HELPFUL_LINKS_65"></a>HELPFUL LINKS</h2>
+<h2 class="code-line" data-line-start=65 data-line-end=66 ><a id="LINKS_65"></a>LINKS</h2>
 <ul>
 <li class="has-line-data" data-line-start="66" data-line-end="67"><a href="https://help.pythonanywhere.com/pages/ScheduledTasks">https://help.pythonanywhere.com/pages/ScheduledTasks</a></li>
 <li class="has-line-data" data-line-start="67" data-line-end="69"><a href="https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279">Automate your python scripts with task scheduler</a></li>
 </ul>
-<h2 class="code-line" data-line-start=69 data-line-end=70 ><a id="DO_YOU_NEED_HELP_69"></a>DO YOU NEED HELP?</h2>
+<h2 class="code-line" data-line-start=69 data-line-end=70 ><a id="CONTACT_ME_69"></a>CONTACT ME</h2>
 <ul>
 <li class="has-line-data" data-line-start="70" data-line-end="71">Repository: <a href="https://github.com/ngeks/lazada-price-drop-alerts">https://github.com/ngeks/lazada-price-drop-alerts</a></li>
 <li class="has-line-data" data-line-start="71" data-line-end="72">Twitter: <a href="https://twitter.com/ngeksdev">@ngeksdev</a></li>
